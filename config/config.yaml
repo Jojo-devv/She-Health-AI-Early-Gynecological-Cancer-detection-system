@@ -1,0 +1,12 @@
+# Configuration for She Health AI
+model:
+  type: "CNN"
+  input_size: [224, 224]
+  num_classes: 2
+  learning_rate: 0.001
+
+data:
+  input_path: "data/raw"
+  processed_path: "data/processed"
+  batch_size: 32
+  num_epochs: 10
